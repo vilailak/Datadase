@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta  charset = "utf-8">
+        <title>HTML5 เบื้องต้น</title>
+        <!--this is comment setion.-->
+    </head>
+    <body>
+        <div>
+            <h1>Hello world</h1>
+        </div>
+        <table border="1">
+            <tr>
+                <th>รหัสนักศึกษา </th>
+                <th>ชื่อ </th>
+                <th>สาขา </th> 
+                <th>ชั้นปี </th>          
+            </tr>
+            <?php for (int $i=0;$i<=3;$i++) ?>
+
+            <tr>
+                <td>604235025</tb>
+                <td>วิลัยลักษณ์ เกิดทรัพย์</tb>
+                <td>เทคโนโลยีสารสนเทศ</tb> 
+                <td>ปีที่ 3</tb>
+            </tr>
+            </?php ?>
+
+
+        </table>
+
+
+    </body>
+</html>
